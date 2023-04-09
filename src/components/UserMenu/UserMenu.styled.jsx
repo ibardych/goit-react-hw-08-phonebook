@@ -1,6 +1,10 @@
 import styled from '@emotion/styled';
 
 export const UserMenuStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   & .name {
     font-size: 40px;
     font-family: 'Kodchasan', sans-serif;
