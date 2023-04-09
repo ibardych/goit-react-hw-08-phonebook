@@ -35,8 +35,8 @@ export const RegisterForm = () => {
       <FormContainer onSubmit={handleSubmit} autoComplete="off">
         <Input
           label="Name"
-          type="email"
-          name="email"
+          type="text"
+          name="name"
           value={fields.name}
           onChange={handleInputChange}
           required
@@ -45,7 +45,7 @@ export const RegisterForm = () => {
           label="Email"
           type="email"
           name="email"
-          value={fields.name}
+          value={fields.email}
           onChange={handleInputChange}
           pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$"
           title="Please enter a valid email address. For example, john.doe@example.com"
@@ -55,7 +55,7 @@ export const RegisterForm = () => {
           label="Password"
           type="password"
           name="password"
-          value={fields.name}
+          value={fields.password}
           onChange={handleInputChange}
           pattern="^(?=.*\d)[A-Za-z\d]{7,}$"
           title="Please enter a password that is at least 7 characters long and contains at least one number."
