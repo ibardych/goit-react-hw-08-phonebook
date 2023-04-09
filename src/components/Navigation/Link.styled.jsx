@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import { colors } from 'constants';
 import { transition } from 'helpers';
 import { NavLink } from 'react-router-dom';
 

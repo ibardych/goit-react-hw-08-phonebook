@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import { colors } from 'constants';
 
 export const MainStyled = styled.div`
   border: 2px solid #fff;
